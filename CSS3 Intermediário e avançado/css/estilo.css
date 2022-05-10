@@ -213,7 +213,7 @@ ul #atual a {
 }
 */
 
-/* Layouts */
+/* Layouts Fixos
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #f2f2f2;
@@ -270,3 +270,135 @@ body {
     background: #c4c4c4;
     padding: 5px;
 }
+*/
+
+/* Layout de largura líquida 
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+   /* max-width: 960px;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal {
+    width: 63%;
+    float: left;
+}
+
+#conteudo-secundario {
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#navegacao {
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+*/
+
+/* Imagens líquidas */
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+}
+
+#marca {
+    height: 200px;
+    background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+/*
+#imagem {
+    width: 90%;
+    overflow: hidden;
+} */
+
+#conteudo {
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal {
+    width: 63%;
+    float: left;
+}
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+#conteudo-secundario {
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#navegacao {
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
+*/
