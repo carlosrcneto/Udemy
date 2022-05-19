@@ -1,0 +1,42 @@
+header {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+nav {
+    border: 1px solid green;
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+article {
+    background: orange;
+    padding: 10px;
+    width: 50%;
+    float: left;
+}
+
+section {
+    border: 1px dotted #fff;
+    padding: 5px;
+}
+
+time {
+    color: #fff;
+}
+
+aside {
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    width: 45%;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background: #ccc;
+    line-height: 25px;
+    clear: both;
+}
