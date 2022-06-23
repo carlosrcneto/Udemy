@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+        
+        var a = 10
+        var b = 20
+        var c = null // variável auxilia - utilizada na lógica
+
+        document.write('A: ' + a + '<br />')
+        document.write('B: ' + b + '<br />')
+        document.write('C: ' + c + '<br />')
+
+        document.write('<hr  />')
+
+        //lógica de inversão dos valores das variáveis A e B
+        c = a //atribuir valor "a" a var "c" para modificar a "a"
+        a = b //atribuir ao "a" o valor de "b" invertendo o seu valor
+        b = c //atribuir ao "b" o valor que antes era de "a", mas que está alocado em "c" invertendo o valor
+
+        c = null // voltar o valor null para "c"
+
+        //
+        document.write('A: ' + a + '<br />')
+        document.write('B: ' + b + '<br />')
+        document.write('C: ' + c + '<br />')
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
