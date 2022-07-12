@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script>
+
+        /*
+        var numero1 = prompt('Digite o valor 1:')
+        var operacao = prompt('Qual operação deseja realizar? (soma ou subtração)')
+        var numero2 = prompt('Digite o valor 2:')
+
+        numero1 = parseFloat(numero1)
+        numero2 = parseFloat(numero2)
+
+        if (operacao == 'soma') {
+            var resultado = (numero1 + numero2)
+        } else {
+            var resultado = (numero1 - numero2)
+        }
+
+        document.write('O resultado é: ' + resultado) */
+
+        //criar as variaveis através de uma solicitação ao usuário:
+        var num1 = prompt('Digite o valor 1:')
+        var operacao = prompt('Qual operação deseja realizar? (soma ou subtracao)')
+        var num2 = prompt('Digite o valor 2:')
+
+        //realizar a operação requerida:
+        function calc(num1,num2,operacao){
+            num1 = parseFloat(num1)
+            num2 = parseFloat(num2)
+
+            var resultado = 0;
+
+            if(operacao == 'soma'){
+                resultado = num1 + num2;
+            }
+
+            if(operacao == 'subtracao'){
+                resultado = num1 - num2
+            }
+
+            return resultado;
+        }
+
+        //enviar o resultado ao usuário:
+        document.write('O resultado é: ' + calc(num1,num2,operacao))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
